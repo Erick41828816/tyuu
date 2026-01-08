@@ -1,0 +1,210 @@
+h1 {
+        color: blue;
+        width: 100;
+    }
+
+#image{
+    border-radius: 100;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    background-color: aliceblue;
+    padding-top: 5px;
+}
+.fa fa-phone-square{
+  font-size:20px; 
+  float: right; 
+  padding-top: 10px;
+}
+h1 {
+    
+    padding-top: 10px;
+    width: 200;
+    
+}
+ nav{
+  max-width: 100%;
+  background-color: beige;
+ } 
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  padding: 0;
+}
+
+#okay {
+  float: left;
+}
+
+#okay a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#okay a:hover {
+  background-color: #111;
+}
+.front {
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+}
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.font { 
+  width: 600;
+  height: 600;
+  opacity: 0.3;
+  border-bottom-right-radius: 300;
+}
+p {
+  color: black;
+  font-size: large;
+}
+#back {
+  width: 100%;
+  height: 50%;
+
+}
+.mtin{
+  width: 45%;
+  float: right;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;}
+
+.ern {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.ern:hover {
+  background-color: #3e8e41;
+  color: white;
+  cursor: pointer;
+}
+@media all and (max-width: 576px){
+  body{background-color: azure;}
+}
+#env{
+  background-color: rgb(171, 162, 162); 
+  color: aliceblue;
+   border-width: 1px;
+    padding-left: 10px;
+     align-items: center;
+}
+#im{
+  border-radius: 250px;
+   float: right;
+    width:500px;
+     height: 500px;
+}
+@media screen and (max-width:600px){
+.font { 
+  width: 100%;
+  height: 600;
+  opacity: 0.3;
+  border-bottom-right-radius: 300;}
+  .center {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  font-weight: bold;
+}
+ nav{
+  max-width: 100%;
+  background-color: white;
+ } 
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+  padding: 0;
+}
+
+#okay {
+  float: right;
+}
+
+#okay a {
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#okay a:hover {
+  background-color: black;
+}
+#image{
+  width: 100px;
+  height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    background-color: white;
+    padding-top: 5px;
+}
+h1 {
+    
+    padding-top: 10px;
+    color: blue;
+    width: auto;
+    font-size: 16px;
+}
+.fa fa-phone-square{
+  display: none;
+  font-size:11px; 
+  float: right; 
+  padding-top: 10px;
+ 
+  
+}
+#im{
+ display: none;
+  border-radius: 75px;
+   float: left;
+    width:150px;
+     height: 150px;
+    
+}
+}
